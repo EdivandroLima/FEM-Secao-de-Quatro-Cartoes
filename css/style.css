@@ -61,7 +61,7 @@ p {
 	background: white;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
-	margin: 0 12px 25px 12px;
+	margin: 0 15px 30px 15px;
 	position: relative;
 	border-radius: 6px;
 	border-top:4px solid;
@@ -86,7 +86,7 @@ p {
 	right: 30px
 }
 .card-1 {
-	border-color: hsl(212, 86%, 64%)
+	border-color: hsl(180, 62%, 55%)
 }
 .card-2 {
 	border-color: hsl(0, 78%, 62%)
@@ -94,8 +94,23 @@ p {
 .card-3 {
 	border-color: hsl(34, 97%, 64%)
 }
-.card-5 {
+.card-4 {
 	border-color: hsl(212, 86%, 64%)
+}
+@media (max-width: 1100px) {
+	.card {
+		width: 250px
+	}
+}
+@media (max-width: 875px) {
+	.card {
+		width: 500px
+	}
+}
+@media (max-width: 600px) {}
+	.card {
+		width: 290px
+	}
 }
 
 /* Rodapé
