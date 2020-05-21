@@ -1,0 +1,111 @@
+body {
+	background: #fafafa;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #4d4d4d;
+	font-size: 16px
+}
+header {
+	text-align: center;
+	padding: 50px 15px 30px 15px;
+	max-width: 550px;
+	margin: 0 auto
+}
+
+/* Tipografia
+----------------*/
+h1, h2 {
+	font-size: 2.1em;
+	margin: 0 
+}
+@media (max-width: 768px) {
+	h1, h2 {
+		font-size: calc(1rem + 1.8vw)
+	}
+}
+h1 {
+	font-weight: 200
+}
+h2 {
+	font-weight: 600
+}
+p {
+	color: #afafaf
+}
+
+/* Cartões
+--------------*/
+.cards {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap
+}
+.card h3 {
+	margin: 0
+}
+.card p {
+	font-size: 14px;
+	margin: 8px 0
+}
+.card {
+	width: 330px;
+	height: 240px;
+	background: white;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0 12px 25px 12px;
+	position: relative;
+	border-radius: 6px;
+	border-top:4px solid;
+	padding: 30px;
+	-webkit-box-shadow: 0 1rem 2rem rgba(100,100,100, .1);
+	        box-shadow: 0 1rem 2rem rgba(100,100,100, .1);
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s
+}
+.card:hover {
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+	-webkit-box-shadow: 0 1rem 2rem rgba(100,100,100, .3);
+	        box-shadow: 0 1rem 2rem rgba(100,100,100, .3);
+	z-index: 2
+}
+.card img {
+	position: absolute;
+	bottom: 30px;
+	right: 30px
+}
+.card-1 {
+	border-color: hsl(212, 86%, 64%)
+}
+.card-2 {
+	border-color: hsl(0, 78%, 62%)
+}
+.card-3 {
+	border-color: hsl(34, 97%, 64%)
+}
+.card-5 {
+	border-color: hsl(212, 86%, 64%)
+}
+
+/* Rodapé
+-------------*/
+footer {
+	margin: 30px 15px 0 15px;
+	font-size: 11px;
+	text-align: center
+}
+footer a {
+	color: #007bff;
+	text-decoration: none
+}
